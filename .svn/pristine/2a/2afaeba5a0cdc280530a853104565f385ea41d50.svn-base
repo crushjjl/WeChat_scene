@@ -1,0 +1,26 @@
+;
+(function ($) {
+	$(function () {
+		var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'vertical',
+		    loop: true,
+		    autoplay: 3000,
+		    autoplayDisableOnInteraction:false,
+		    effect : 'cube',
+		    
+		    // 分页器
+		    pagination: '.swiper-pagination',
+		    paginationType:'progress',
+		    paginationHide:true,
+
+		    // 前进后退按钮
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+		    
+		    // 滚动条
+		    scrollbar: '.swiper-scrollbar',
+		    scrollbarDraggable:true,
+		    scrollbarSnapOnRelease:true
+		  });
+	});
+})(jQuery);

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>GreenProducts</title>
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/swiper/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<header class="container">
+			<div class="header_content">
+				<nav class="navbar navbar-default header_nav" role="navigation">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand header_logo" href="#">GREEN PRODUCTS</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav header_navlist">
+				        <li><a href="#" class="active">首页</a></li>
+				        <li><a href="#">新闻动态</a></li>
+				        <li><a href="#">产品展示</a></li>
+				        <li><a href="#">食尚生活</a></li>
+				        <li><a href="#">关于我们</a></li>
+				        <li><a href="#">联系我们</a></li>
+				        <li><a href="#">用户反馈</a></li>
+				      </ul>
+				    </div>
+				</nav>
+			</div>
+		</header>
+	</div>
+	<!-- banner -->
+<div id="banner">
+	<section class="banner_content container">
+			<div class="swiper-container row">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><a href="#" title=""><img class="img-responsive" src="img/banner_ad (1).jpg" alt="banner_ad" title="banner_ad"></a></div>
+			        <div class="swiper-slide"><a href="#" title=""><img class="img-responsive" src="img/banner_ad (2).jpg" alt="banner_ad" title="banner_ad"></a></div> 
+			        <div class="swiper-slide"><a href="#" title=""><img class="img-responsive" src="img/banner_ad(3).png" alt="banner_ad" title="banner_ad"></a></div> 
+			        <div class="swiper-slide"><a href="#" title=""><img class="img-responsive" src="img/banner_ad (4).jpg" alt="banner_ad" title="banner_ad"></a></div> 
+			        <div class="swiper-slide"><a href="#" title=""><img class="img-responsive" src="img/banner_ad(5).png" alt="banner_ad" title="banner_ad"></a></div> 
+			        <div class="swiper-slide"><a href="#" title=""><img class="img-responsive" src="img/banner_ad (6).jpg" alt="banner_ad" title="banner_ad"></a></div>  
+			    </div>
+			    <!-- 分页器 -->
+			    <div class="swiper-pagination"></div>
+			    <!-- 导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			    <!-- 滚动条 -->
+			    <div class="swiper-scrollbar"></div>
+			</div>
+	</section>
+</div>
+	<!-- content -->
+<div id="content">
+	<section class="container">
+		<div class="row">
+			<ul class="content_title">
+				<li class="col-md-3 col-xs-3"><a href="#">最新产品</a></li>
+				<li class="col-md-3 col-xs-3"><a href="#">今日特卖</a></li>
+				<li class="col-md-3 col-xs-3"><a href="#">时令果蔬</a></li>
+				<li class="col-md-3 col-xs-3"><a href="#">用户推荐</a></li>
+			</ul>
+			<div class="newProducts">
+				<ul class="newProducts_list">
+					<li class="col-md-2 col-xs-2">
+						<div class="newProducts_detail">
+							<a href="#" title=""><img class="img-responsive" src="img/new_products (1).jpg" alt="newProducts" title="newProducts"></a>
+							<span class="newProducts_name">带刺黄瓜(300g/份)</span>
+							<span class="newProducts_price">￥ 2.90</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+
+
+
+
+	<!-- js -->
+	<script type="text/javascript" src="lib/jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap-3.3.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/swiper/js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

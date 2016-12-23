@@ -1,0 +1,119 @@
+/* header */
+#header{
+	background: #4ab344;
+	height: 120px;
+}
+header .header_content{
+	margin-top: 4%;
+	overflow: hidden;
+}
+header .header_nav{
+	background-color: transparent;
+	border: none;
+	color: #fff;
+}
+header .header_nav .header_navlist a{
+	color: #fff;
+	font-size: 18px;
+}
+header .header_nav .header_navlist .active{
+	border-radius: 4px;
+	background: #fff;
+	color: #4ab344;
+}
+header .header_nav .header_navlist a:hover{
+	color: #4ab344;
+	background-color: #fff;
+	border-radius: 4px;
+}
+header .header_nav .header_logo{
+	font-size: 36px;
+	color: #fff;
+	font-weight: 500;
+}
+header .header_nav .header_logo:hover{
+	color: #fff;
+}
+header .header_navlist {
+	margin-left: 3%;
+}
+header .header_navlist li{
+	padding:  0 3px;
+}
+/* banner */
+#banner{
+	width: 100%;
+	height: 100%;
+	padding: 2% 0 0 0;
+	background: url('../img/true.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+section .swiper-container{
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+}
+section .swiper-container .swiper-wrapper img{
+	width: 100%;
+	height: 100%;
+} 
+/* content */
+#content{
+	width: 100%;
+	height: 100%;
+	padding: 2% 0;
+	text-align: center;
+}
+section .content_title{
+	width: 100%;
+	height: 40px;
+	background-color: #dcdcdc;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #e1e1e1;
+	box-sizing: border-box;
+}
+section .content_title li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #4ab344;
+	font-size: 16px;
+}
+section .content_title li:hover{
+	background-color: #4ab344;
+}
+section .content_title li:hover a{
+	color: #fff;	
+}
+section .newProducts{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	// background-color: lightblue;
+	border: 1px solid #dadada;
+	padding: 10px;
+	padding-bottom: 0;
+}
+section .newProducts_list li{
+	padding: 1%;
+	border: 1px solid #e1e1e1;
+	box-sizing: border-box;
+}
+section .newProducts_list img{
+	width: 100%;
+	height: 100%;
+}
+section .newProducts_list li span{
+	display: block;
+	font-size: 14px;
+	color: #666;
+	padding-top: 2%;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+}
+section .newProducts_list .newProducts_price{
+	font-size: 16px;
+	color: #f00;
+}

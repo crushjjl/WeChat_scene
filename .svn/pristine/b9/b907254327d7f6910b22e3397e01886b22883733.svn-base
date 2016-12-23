@@ -1,0 +1,178 @@
+<?php
+require_once "jssdk.php";
+$jssdk = new JSSDK("wx78d084359ca8148f", "d0c26e8bbde3e4f81938a0a16875d855");
+$signPackage = $jssdk->GetSignPackage();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>shoes</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="lib/swiper/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/swiper/css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+		<!-- content -->
+		
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		    <!-- P1 -->
+		        <div class="swiper-slide page_01">
+		        <p class="img_0_1 ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img0/img_0_1.png" alt="pic" title="pic"></p>
+		        <p class="img_0_2 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img0/img_0_2.png" alt="pic" title="pic"></p>
+		        <p class="img_0_3 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img0/img_0_3.png" alt="pic" title="pic"></p>
+		        </div>
+
+		    <!-- P2 --> 
+		       <div class="swiper-slide page_02">
+		       <p class="img_1_1 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img1/img_1_1.png" alt="pic" title="pic"></p>
+		       <p class="img_1_2 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img1/img_1_2.png" alt="pic" title="pic"></p>
+		       <p class="img_1_3 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img1/img_1_3.png" alt="pic" title="pic"></p>
+		       <p class="img_1_4 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img1/img_1_4.png" alt="pic" title="pic"></p>
+		       </div>
+
+		    <!-- P3 -->
+		     <div class="swiper-slide page_03">
+		     <p class="img_2_1 ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img2/img_2_1.png" alt="pic" title="pic"></p>
+		     <p class="img_2_2 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img2/img_2_2.png" alt="pic" title="pic"></p>
+		     <p class="img_2_3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img2/img_2_3.png" alt="pic" title="pic"></p>
+		     <p class="img_2_4 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.6s"><img src="images/img2/img_2_4.png" alt="pic" title="pic"></p>
+		     <p class="img_2_5 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.8s"><img src="images/img2/img_2_5.png" alt="pic" title="pic"></p>
+		    </div>
+
+		    <!-- P4 -->
+	        <div class="swiper-slide page_04">
+	       	      		<p class="img_3_1 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img3/img_3_1.png" alt="pic" title="pic"></p>
+	       	      		<p class="img_3_2 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.6s"><img src="images/img3/img_3_2.png" alt="pic" title="pic"></p>
+	       	      		<p class="img_3_3 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.9s"><img src="images/img3/img_3_3.png" alt="pic" title="pic"></p>
+	       	      		<p class="img_3_4 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img3/img_3_4.png" alt="pic" title="pic"></p>
+	       	      		<p class="img_3_5 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.8s"><img src="images/img3/img_3_5_02.png" alt="pic" title="pic"></p>
+	       </div>
+		    <!-- P5 -->
+		        <div class="swiper-slide page_05">
+			        <p class="img4-1 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img4/img4-1.png" alt="pic" title="pic"></p>
+		      		<p class="img4-2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img4/img4-2.png" alt="pic" title="pic"></p>
+		      		<p class="img4-3 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img4/img4-3.png" alt="pic" title="pic"></p>
+		      		<p class="img4-4 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="1.5s"><img src="images/img4/img4-4.png" alt="pic" title="pic"></p>
+		      		<p class="img4-5 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="1.8s"><img src="images/img4/img4-5.png" alt="pic" title="pic"></p>
+		        </div>
+			<!-- P6 -->
+		        <div class="swiper-slide page_06">
+			        <p class="img5-1 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img5/img5-1.png" alt="pic" title="pic"></p>
+		      		<p class="img5-2 ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img5/img5-2.png" alt="pic" title="pic"></p>
+		        </div>
+			<!-- P7 -->
+		        <div class="swiper-slide page_07">
+		        	<p class="img6-1 ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img6/img6-1.png" alt="pic" title="pic"></p>
+		      		<p class="img6-2 ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img6/img6-2.png" alt="pic" title="pic"></p>
+		      		<p class="img6-3 ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img6/img6-3.png" alt="pic" title="pic"></p>
+		        </div>
+			<!-- P8 -->
+		        <div class="swiper-slide page_08">
+			        <p class="img7-1 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img7/img7-1.png" alt="pic" title="pic"></p>
+		      		<p class="img7-2 ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img7/img7-2.png" alt="pic" title="pic"></p>
+		        </div>
+		    <!-- P9 -->
+		        <div class="swiper-slide page_09">
+		          	<p class="img8-1 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img8/img8-1.png" alt="pic" title="pic"></p>
+	        		<p class="img8-2 ani" swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img8/img8-2.png" alt="pic" title="pic"></p>
+	        		<p class="img8-3 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img8/img8-3.png" alt="pic" title="pic"></p>
+		        </div>
+		    <!-- P10 -->
+		        <div class="swiper-slide page_10">
+    	          	<p class="img9-1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img9/img9-1.png" alt="pic" title="pic"></p>
+            		<p class="img9-2 ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img9/img9-2.png" alt="pic" title="pic"></p>
+            		<p class="img9-3 ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img9/img9-3.png" alt="pic" title="pic"></p>
+		        </div>
+		    <!-- P11 -->
+		        <div class="swiper-slide page_11">
+		          	<div class="page_11_first ani"  swiper-animate-effect="slideInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+		          		<p class="img10-1 ani" swiper-animate-effect="slideInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img10/img10-1.png" alt="pic" title="pic"></p>
+		          	</div>
+	        		<p class="img10-2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img10/img10-2.png" alt="pic" title="pic"></p>
+	        		<p class="img10-3 ani" swiper-animate-effect="slideInUp" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img10/img10-3.png" alt="pic" title="pic"></p>
+		        </div>
+		    <!-- P12 -->
+		        <div class="swiper-slide page_12">
+    	          <div class="page_12_first ani"  swiper-animate-effect="slideInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+    	          		<p class="img11-1 ani" swiper-animate-effect="slideInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img11/img11-1.png" alt="pic" title="pic"></p>
+    	          </div>
+    	          	<p class="img11-2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img id="myQrCode" src="images/img11/myQrCode.jpg" alt="pic" title="pic"></p>
+            		<p class="img11-3 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img11/img11-2.png" alt="pic" title="pic"></p>
+            		<p class="img11-4 ani" swiper-animate-effect="slideInUp" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img11/img11-3.png" alt="pic" title="pic"></p>
+		        </div>
+		    <!-- P13 -->
+		        <div class="swiper-slide page_13">
+			       <div class="page_13_first ani"  swiper-animate-effect="slideInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+			       	 <p class="img12-1 ani" swiper-animate-effect="slideInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"><img src="images/img12/img12-1.png" alt="pic" title="pic"></p>
+			       </div>
+		      		<div class="page_13_sec">
+		      			<span class="img12-2 ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s"><img src="images/img12/img12-2.png" alt="pic" title="pic"></span>
+		      			<span class="img12-3 ani" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="1.2s"><img src="images/img12/img12-3.png" alt="pic" title="pic"></span>
+		      		</div>
+		      		<div class="page_13_third">
+		      			<span class="img12-4 ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.5s"><img src="images/img12/img12-4.png" alt="pic" title="pic"></span>
+		      			<span class="img12-5 ani" swiper-animate-effect="slideInUp" swiper-animate-duration="1s" swiper-animate-delay="1.5s"><img src="images/img12/img12-5.png" alt="pic" title="pic"></span>
+		      			<span class="img12-6 ani" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s"><img src="images/img12/img12-6.png" alt="pic" title="pic"></span>
+		      		</div>
+		        </div>
+		    </div>
+		</div>
+
+		
+
+	<!-- js -->
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script type="text/javascript" src="lib/zepto/zepto.min.js"></script>
+	<script type="text/javascript" src='lib/touch/touch.js'></script>
+	<script type="text/javascript" src="lib/swiper/js/swiper-3.4.1.jquery.min.js"></script>
+	<script type="text/javascript" src="lib/swiper/js/swiper.animate1.0.2.min.js"></script>
+	<!-- <script type="text/javascript" src="js/index.js"></script> -->
+	<script type="text/javascript">
+		$(function () {
+			var mySwiper = new Swiper ('.swiper-container', {
+				// autoplay:5000,
+			    direction: 'vertical',
+			    // loop: true,
+			    onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+			        swiperAnimateCache(swiper); //隐藏动画元素 
+			        swiperAnimate(swiper); //初始化完成开始动画
+			      }, 
+			      onSlideChangeEnd: function(swiper){ 
+			        swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+			      } 
+			  });
+
+		/*调用微信接口*/
+			wx.config({
+			  debug: true,
+			  appId: '<?php echo $signPackage["appId"];?>',
+			  timestamp: <?php echo $signPackage["timestamp"];?>,
+			  nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+			  signature: '<?php echo $signPackage["signature"];?>',
+			  jsApiList: [
+			    // 所有要调用的 API 都要加到这个列表中
+			    'scanQRCode'
+			  ]
+			});
+			//调用微信的接口
+			wx.ready(function () {
+			  // 在这里调用 API
+			  $("#myQrCode").on('longTap', '.selector', function() {
+			  	alert("message");
+			  	wx.scanQRCode({
+			  	    needResult: 0, // 默认为0，扫描结果由微信处理，1则直接返回扫描结果，
+			  	    scanType: ["qrCode","barCode"], // 可以指定扫二维码还是一维码，默认二者都有
+			  	    success: function (res) {
+			  	    var result = res.resultStr; // 当needResult 为 1 时，扫码返回的结果
+			  	}
+			  	});
+			  }); 
+			});
+		});
+	</script>
+</body>
+</html>
